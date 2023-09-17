@@ -1,0 +1,143 @@
+.banner,
+.awssld__content {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awssld__controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.awssld__wrapper {
+  min-height: 100vh;
+}
+
+.banner {
+  flex-direction: column;
+}
+
+div#banner {
+  width: min(700px, 96%);
+  background: #5c60669e;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-wrap: balance;
+  color: white;
+  border-radius: 7px;
+  gap: 19px;
+}
+
+.awssld__controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+#banner .btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#banner .btns button:nth-child(1) {
+  background-color: var(--main-color-1);
+  border-color: var(--main-color-1);
+}
+
+#banner .btns button {
+  border: 2px solid;
+  transition: .5s ease-in-out;
+}
+
+#banner .btns button:nth-child(2) {
+  background-color: transparent;
+  border-color: var(--main-color-1);
+}
+
+#banner .btns button:nth-child(2):hover {
+  background-color: var(--main-color-1);
+}
+
+#banner .btns button:nth-child(1):hover {
+  background-color: transparent;
+}
+
+.awssld__controls__arrow-left:before,
+.awssld__controls__arrow-left:after,
+.awssld__controls__arrow-right:before,
+.awssld__controls__arrow-right:after {
+  background-color: white !important;
+}
+
+
+
+.scroll-indicator {
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.7;
+  z-index: 9999;
+}
+
+.mouse {
+  width: 24px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-wheel {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  animation: scrollPulse 1.5s infinite;
+}
+
+.scroll-text {
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.content {
+  height: 100%;
+  overflow-y: auto;
+  /* Your content styling */
+}
+
+@keyframes scrollPulse {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+
+.banner .css-1sj2t5c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

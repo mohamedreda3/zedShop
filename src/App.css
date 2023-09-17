@@ -1,0 +1,18 @@
+:root {
+  --main-color-1: #E38649;
+  --main-color-1-alpha: #e3874994;
+  --main-color-2: #2F496A;
+  --main-color-2-alpha: #2f496a53;
+  --header-links-fot-size: 20px;
+}
+
+* {
+  font-family: 'Tajawal', sans-serif;
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+section{
+  overflow: hidden;
+}

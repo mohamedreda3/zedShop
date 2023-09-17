@@ -1,0 +1,29 @@
+section#found_us {
+    margin: 40px 0;
+}
+
+.section__title, .__data h3 {
+    width: fit-content;
+    padding: 3px 30px;
+    font-size: 34px;
+    text-align: center;
+    margin: 30px auto;
+    border-bottom: .2px solid var(--main-color-2-alpha);
+}
+
+.section_data ul li {
+    margin: 15px 0;
+}
+
+.section_data ul {
+    list-style: none;
+}
+.section_data .map {
+    width: min(960px, 100%);
+}
+.section_data {
+    display: flex;
+    font-size: 21px;
+    justify-content: space-between;
+    gap: 10px;
+}

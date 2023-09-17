@@ -1,0 +1,143 @@
+.franchise {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+
+.franchise .right {
+  width: 700px;
+}
+
+.franchise .right .branchiesterms {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.branchiesterms>h4 {
+  margin-bottom: 10px;
+  font-size: 22px;
+
+}
+
+.branchiesterms p {
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.costs {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.costs h3 {
+  margin-bottom: 10px;
+}
+
+.costs p {
+  font-size: 19px;
+}
+
+.franchise .formsubmit {
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.franchise .formsubmit>div:first-of-type {
+  background-color: #dedede;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.franchise .formsubmit>form>div input {
+  border: none;
+  /* width: 100%; */
+  outline: none;
+  flex: 1;
+}
+
+.franchise .formsubmit>form>div {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 4px;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.franchise .formsubmit>form>div>svg {
+  font-size: 20px;
+  color: #e3874994;
+}
+
+.franchise .formsubmit>form button {
+  background-color: #2F496A;
+  color: white;
+  width: 140px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.franchise .formsubmit>div:nth-child(2),
+.franchise .formsubmit>div:nth-child(3) {
+  display: flex;
+  margin-top: 10px;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.franchise .formsubmit>div:nth-child(2)>svg,
+.franchise .formsubmit>div:nth-child(3)>svg {
+  font-size: 32px;
+}
+
+.contactphone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.contactphone svg {
+  color: #2F496A;
+}
+
+@media (max-width:1100px) {
+  .franchise .formsubmit {
+    width: 700px;
+  }
+}
+
+@media (max-width:992px) {
+  .franchise .formsubmit {
+    width: 700px;
+  }
+
+  .franchise .right {
+    width: 700px;
+  }
+}
+
+@media (max-width:565px) {
+  .franchise .formsubmit {
+    width: 95%;
+  }
+
+  .franchise .right {
+    width: 95%;
+  }
+}

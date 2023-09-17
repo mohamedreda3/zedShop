@@ -1,0 +1,40 @@
+.service .s__icon img {
+    width: 100%;
+}
+
+.service .s__icon {
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.service {
+    width: min(260px, 100%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap: 10px;
+}
+
+.s__button button {
+    transition: .6s ease-in-out;
+    font-size: 15px;
+}
+
+.s__button button span{
+    margin: 0 4px;
+}
+
+.s__button button:hover {
+    background: transparent !important;
+    color: black;
+}
