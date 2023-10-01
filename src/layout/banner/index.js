@@ -37,7 +37,7 @@ function Banner() {
                     </span>
                     <span >شاهد الفيديو</span>
                   </button>
-                  <button className="btn btn-success" onClick={() => navigate("/branches_burchase")}>
+                  <button className="btn btn-success" onClick={() => window.open("http://wataneyagroup.foodics.online/", "_blanck")}>
                     <span>
                       {" "}
                       اطلب الآن{" "}
