@@ -93,7 +93,8 @@ function Footer() {
                   <span>
                     <PhoneOutlined />
                   </span>
-                  <a href="tel:2332">2332</a>
+                  <a href="tel:+201120066668">01120066668</a> -
+                  <a href="tel:+201118176006">01118176006</a>
                 </li>
                 <li>
                   <span>
@@ -123,6 +124,11 @@ function Footer() {
                   </a>
                 </li>
               </ul>
+              <img
+                src="https://res.cloudinary.com/duovxefh6/image/upload/v1696185783/c4848726-bc0a-45b0-ad19-4ed672daec3d_1_ympgre.png"
+                width={"130px"}
+                alt=""
+              />
             </div>
           </Slide>
         </div>

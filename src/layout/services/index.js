@@ -62,11 +62,9 @@ function Services() {
                           ? ".7px solid var(--main-color-1)"
                           : ".7px solid var(--main-color-2)"
                     }}
-                    onClick={() =>
-                      (window.location.href = "/branches_burchase")
-                    }
+                   
                   >
-                    <span onClick={() => navigate("/branches_burchase")}>
+                    <span onClick={() => window.open("http://wataneyagroup.foodics.online/", "_blanck")}>
                       اطلب الآن
                     </span>
                     <span>

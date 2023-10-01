@@ -55,12 +55,12 @@ function Header() {
                     <span onClick={() => setOpenForm(true)}>
                         <SearchOutlined style={{ color: "white" }} />
                     </span>
-                    <button className='btn btn-success'>
+                    {/* <button className='btn btn-success'>
                         <span> تسجيل الدخول </span>
                     </button>
                     <button className='btn btn-success'>
                         <span> الاشتراك </span>
-                    </button>
+                    </button> */}
                 </div>
             </Slide>
         </header>
