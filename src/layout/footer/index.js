@@ -100,7 +100,7 @@ function Footer() {
                   <span>
                     <EmailOutlined />
                   </span>
-                  <a href="mailto:investor@zed.com">investor@zed.com</a>
+                  <a href="mailto:zshop.wg@gmail.com">zshop.wg@gmail.com</a>
                 </li>
               </ul>
             </div>
